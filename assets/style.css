@@ -19,31 +19,33 @@ button {
     width: 90px;
 }
 .animate{
-    background: url("./images/heads.png");
+    background: url("./images/hed.jpeg");
     text-align: center;
     margin-top: 20px;
-    width: 200px;
-    height: 270px;
+    width: 220px;
+    height: 200px;
     margin-left: 150px;
     animation-name: spin;
     animation-iteration-count: 2;
     animation-duration: 1s;
 }
 #image{
-    background: url("./images/heads.png");
-    width: 200px;
-    height: 270px;
+    background: url("./images/hed.jpeg");
+    width: 220px;
+    height: 200px;
     align-items: center;
+    margin-top: 30px;
+    margin-right: 150px;
     
 }
 @keyframes spin {
-    0% {background: url("./images/heads.png")}
+    0% {background: url("./images/hed.jpeg")}
     
-    25% {background: url("./images/tails.png")}
+    25% {background: url("./images/tl.jpeg")}
     
-    50% {background: url("./images/heads.png")}
+    50% {background: url("./images/hed.jpeg")}
     
-    75% {background: url("./images/tails.png")}
+    75% {background: url("./images/tl.jpeg")}
     
-    100% {background: url("./images/heads.png")}
+    100% {background: url("./images/hed.jpeg")}
 }
